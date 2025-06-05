@@ -44,10 +44,6 @@ plus = "SHIFTED(Equal)"
 lbrc = "SHIFTED(LeftBracket)"
 rbrc = "SHIFTED(RightBracket)"
 pipe = "SHIFTED(Backslash)"
-nutld = "SHIFTED(NonusHash)"
-nupip = "SHIFTED(NonusBackslash)"
-nuhs = "NonusHash"
-nubs = "NonusBackslash"
 volup = "KbVolumeUp"
 voldn = "KbVolumeDown"
 mnext = "MediaNextTrack"
@@ -74,7 +70,7 @@ name = "upper"
 keys = """
 @tilde @excl @at @hash @dollar @perc     @caret @amps  @astrk @lpar  @rpar  _
 Delete F1    F2  F3    F4      F5        F6     @under @plus  @lbrc  @rbrc  @pipe
-_      F7    F8  F9    F10     F11   _ _ F12    @nutld @nupip Home   End    _
+_      F7    F8  F9    F10     F11   _ _ F12    No     No      Home   End    _
 _      _     _   _     _       _     _ _ _      _      @mnext @voldn @volup @mplay
 """
 
@@ -83,7 +79,7 @@ name = "lower"
 keys = """
 Grave  Kc1 Kc2 Kc3 Kc4 Kc5     Kc6 Kc7   Kc8    Kc9         Kc0          _
 Delete F1  F2  F3  F4  F5      F6  Minus Equal  LeftBracket RightBracket Backslash
-_      F7  F8  F9  F10 F11 _ _ F12 @nuhs @nubs  PageUp      PageDown     _
+_      F7  F8  F9  F10 F11 _ _ F12 No    No     PageUp      PageDown     _
 _      _   _   _   _   _   _ _ _   _     @mnext @voldn      @volup       @mplay
 """
 
